@@ -36,9 +36,9 @@ class MainWindow(QMainWindow):
             for coln, data in enumerate(rowd):
                 self.table.setItem(rown,coln, QTableWidgetItem(str(data)))
         connection.close()
-
+        #comment
         self.table
-xxx
+
 
 app = QApplication(sys.argv)
 speed_calc = MainWindow()
