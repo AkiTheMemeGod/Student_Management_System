@@ -37,7 +37,7 @@ class MainWindow(QMainWindow):
                 self.table.setItem(rown,coln, QTableWidgetItem(str(data)))
         connection.close()
 
-        self.tables
+        self.table
 
 
 app = QApplication(sys.argv)
