@@ -38,7 +38,7 @@ class MainWindow(QMainWindow):
         connection.close()
 
         self.table
-
+xxx
 
 app = QApplication(sys.argv)
 speed_calc = MainWindow()
